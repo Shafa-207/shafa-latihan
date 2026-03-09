@@ -10,5 +10,7 @@ RUN pip install flask
 # Copy file coba.py ke dalam container
 COPY coba.py .
 
+EXPOSE 3000
+
 # Jalankan aplikasinya
 CMD ["python", "coba.py"]
